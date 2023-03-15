@@ -10,6 +10,11 @@
 
 #define F_CPU 16000000UL
 
+#define BUTTON1 4
+#define BUTTON2 5
+
+
+
 /********************************************************************************
 * setup: Initiates the game and displays the startup screen.
 ********************************************************************************/
@@ -32,6 +37,11 @@ void init_timer(void);
 * setup: Initiates the game startup screen.
 ********************************************************************************/
 void start_countdown(void);  
+
+void update_score();
+void game_loop();
+void game_over();
+void reset_game();
 
 
 #endif /* HEADER_H_ */
