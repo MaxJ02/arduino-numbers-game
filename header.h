@@ -3,9 +3,13 @@
 
 #include "plusheader.hpp"
 
+#define counter1
+#define timer1
 
-
-
+/********************************************************************************
+* setup: Initiates the game startup screen.
+********************************************************************************/
+void setup(void)´;
 
 
 
